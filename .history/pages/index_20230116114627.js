@@ -78,15 +78,7 @@ export default function Home() {
             )
           }
         })}
-                  <div>Computing Degree</div>
-          {information && information.map((info, index) => {
-            if(info.department === "Computing") {
 
-             return(
-              <Card key={index} degree={info.degree} colour="blue" font="20px"/>
-             )
-          }
-        })}
         </div>
       </main>
     </>

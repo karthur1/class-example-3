@@ -6,6 +6,7 @@ import data from '../data/education.json'
 import {useState} from 'react'
 import Card from '../components/Card'
 import Link from 'next/link'
+import data from '../data/employees.json'
 
 
 const inter = Inter({ subsets: ['latin'] })

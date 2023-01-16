@@ -5,8 +5,7 @@ import styles from '@/styles/Home.module.css'
 import data from '../data/education.json'
 import {useState} from 'react'
 import Card from '../components/Card'
-import Link from 'next/link'
-
+import link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,7 +26,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-          <Link href="about">About</Link>
+          <link href="about">About</link>
 
           </p>
           <div>

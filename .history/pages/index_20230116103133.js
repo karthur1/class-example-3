@@ -4,9 +4,6 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import data from '../data/education.json'
 import {useState} from 'react'
-import Card from '../components/Card'
-import Link from 'next/link'
-
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +11,7 @@ export default function Home() {
 
   console.log(data)
   const [information, setInformation] = useState([...data])
-  console.log(information)
+
 
   return (
     <>
@@ -27,8 +24,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-          <Link href="about">About</Link>
-
+            Get started by editing&nbsp;
+            <code className={styles.code}>pages/index.js</code>
           </p>
           <div>
             <a
@@ -70,23 +67,9 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <div>Business Degree</div>
           {information && information.map((info, index) => {
-            if(info.department === "Business") {
-              return(
-              <Card key={index} degree={info.degree} colour="red" font="20px"/>
-            )
-          }
-        })}
-                  <div>Computing Degree</div>
-          {information && information.map((info, index) => {
-            if(info.department === "Computing") {
-
-             return(
-              <Card key={index} degree={info.degree} colour="blue" font="20px"/>
-             )
-          }
-        })}
+            
+          })}
         </div>
       </main>
     </>

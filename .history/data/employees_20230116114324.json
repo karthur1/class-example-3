@@ -1,0 +1,25 @@
+[
+    {
+        "firstName": "John Doe",
+        "bloodType": "AB",
+        "department": "Business",
+        "degree": "Finance",
+        "graduted": 2004
+    },
+    {
+        "firstName": "Jeff Smith",
+        "bloodType": "A",
+        "gpa": 3.5,
+        "department": "Business",
+        "degree": "Accounting",
+        "graduted": 2009
+    },
+    {
+        "firstName": "Bill Nye",
+        "bloodType": "A",
+        "gpa": 3.2,
+        "department": "Computing",
+        "degree": "Applied Software Development Certificate",
+        "graduted": 2010
+    }
+]
