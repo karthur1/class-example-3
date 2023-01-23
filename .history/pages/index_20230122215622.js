@@ -27,7 +27,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-          <Link href="about">Employees</Link>
+          <Link href="about">About</Link>
 
           </p>
           <div>
