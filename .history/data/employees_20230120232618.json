@@ -1,0 +1,30 @@
+[
+    {
+        "firstName": "John Doe",
+        "bloodType": "AB",
+        "department": "Business",
+        "degree": "Finance",
+        "graduted": 2004
+    },
+    {
+        "firstName": "Jeff Smith",
+        "bloodType": "A",
+        "department": "Business",
+        "degree": "Finance",
+        "graduted": 2009
+    },
+    {
+        "firstName": "Jim Mack",
+        "bloodType": "A",
+        "department": "Business",
+        "degree": "Business",
+        "graduted": 2009
+    },
+    {
+        "firstName": "Bill Nye",
+        "bloodType": "A",
+        "department": "Computing",
+        "degree": "Business",
+        "graduted": 2010
+    }
+]

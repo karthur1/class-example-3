@@ -1,0 +1,33 @@
+[
+    {
+        "firstName": "John Doe",
+        "favouriteFood": "Pizza",
+        "bloodType": "AB",
+        "department": "Business",
+        "graduted": 2004
+    },
+    {
+        "firstName": "Jeff Smith",
+        "favouriteFood": "Cake",
+        "bloodType": "A",
+        "department": "Business",
+        "degree": "Finance",
+        "graduted": 2009
+    },
+    {
+        "firstName": "Jim Mack",
+        "favouriteFood": "Pizza",
+        "bloodType": "A",
+        "department": "Business",
+        "degree": "Business",
+        "graduted": 2009
+    },
+    {
+        "firstName": "Bill Nye",
+        "favouriteFood": "Cake",
+        "bloodType": "A",
+        "department": "Computing",
+        "degree": "Business",
+        "graduted": 2010
+    }
+]
